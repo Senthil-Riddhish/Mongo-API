@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = `mongodb+srv://:${password}@cluster0.son3w.mongodb.net/?retryWrites=true&w=majority`;
+const url = //
 mongoose.connect( url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
