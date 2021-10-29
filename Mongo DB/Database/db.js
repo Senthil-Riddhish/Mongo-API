@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-const password = encodeURIComponent('riddhishwarDataBase1122')
-const url = `mongodb+srv://riddhishwar:${password}@cluster0.son3w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const url = `mongodb+srv://:${password}@cluster0.son3w.mongodb.net/?retryWrites=true&w=majority`;
 mongoose.connect( url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
